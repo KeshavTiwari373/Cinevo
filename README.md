@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
 # 🎬 Cinevo
 
 > **Find your next movie obsession.**
@@ -72,18 +54,18 @@ This project is primarily a learning exercise, with an emphasis on writing front
 
 Some of the concepts explored include:
 
-* Component-based UI development
-* Reusable React components
-* API requests and asynchronous data
-* Search functionality
-* Dynamic movie lists
-* Trending movie calculations
-* Loading and empty states
-* Responsive layouts
-* Separation of UI and data logic
-* Environment variables
-* Maintainable project structure
-* Reusable utility functions
+- Component-based UI development
+- Reusable React components
+- API requests and asynchronous data
+- Search functionality
+- Dynamic movie lists
+- Trending movie calculations
+- Loading and empty states
+- Responsive layouts
+- Separation of UI and data logic
+- Environment variables
+- Maintainable project structure
+- Reusable utility functions
 
 The goal isn't just to make the application look good — it's to understand **how to organize a real-world React application**.
 
@@ -166,15 +148,15 @@ Building Cinevo helped me practice more than just creating movie cards.
 
 The project gave me experience with:
 
-* Working with third-party APIs
-* Managing asynchronous requests
-* Building reusable React components
-* Creating responsive layouts with Tailwind
-* Handling search input and results
-* Designing a trending/discovery experience
-* Structuring frontend code for reuse
-* Connecting a frontend application to backend services
-* Managing configuration through environment variables
+- Working with third-party APIs
+- Managing asynchronous requests
+- Building reusable React components
+- Creating responsive layouts with Tailwind
+- Handling search input and results
+- Designing a trending/discovery experience
+- Structuring frontend code for reuse
+- Connecting a frontend application to backend services
+- Managing configuration through environment variables
 
 ---
 
@@ -182,16 +164,16 @@ The project gave me experience with:
 
 There are plenty of directions this project can grow in the future:
 
-* 🎥 Movie details pages
-* ❤️ Favorites / watchlist
-* 👤 User authentication
-* 🌙 Theme switching
-* 🎭 Genre-based browsing
-* 📊 Personalized recommendations
-* ⭐ User ratings
-* 🎞️ Trailer previews
-* 🔖 Watch history
-* 🤖 Smarter recommendation algorithms
+- 🎥 Movie details pages
+- ❤️ Favorites / watchlist
+- 👤 User authentication
+- 🌙 Theme switching
+- 🎭 Genre-based browsing
+- 📊 Personalized recommendations
+- ⭐ User ratings
+- 🎞️ Trailer previews
+- 🔖 Watch history
+- 🤖 Smarter recommendation algorithms
 
 ---
 
@@ -226,4 +208,5 @@ More features will be added as I continue experimenting and learning.
 Feel free to explore the code, experiment with it, and build your own version.
 
 **Built with React & a lot of curiosity. 🍿**
->>>>>>> 5f591150103e05d9755fe96c87ecaa881d78aa88
+
+> > > > > > > 5f591150103e05d9755fe96c87ecaa881d78aa88
