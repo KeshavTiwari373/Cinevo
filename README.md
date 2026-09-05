@@ -179,12 +179,9 @@ There are plenty of directions this project can grow in the future:
 
 ## 📸 Preview
 
-Add screenshots or a GIF of your application here once the UI is ready.
+Screenshots of application.
 
-```text
-<img width="1800" height="520" alt="image" src="https://github.com/user-attachments/assets/6aefa306-19d5-4e38-8ff6-be864457cef3" />
-
-```
+<img width="1800" height="520" alt="Cinevo React App" src="https://github.com/user-attachments/assets/48a6feb3-b351-4633-bf57-877d404796ba" />
 
 ---
 
