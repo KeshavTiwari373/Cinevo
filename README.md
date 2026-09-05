@@ -208,5 +208,3 @@ More features will be added as I continue experimenting and learning.
 Feel free to explore the code, experiment with it, and build your own version.
 
 **Built with React & a lot of curiosity. 🍿**
-
-> > > > > > > 5f591150103e05d9755fe96c87ecaa881d78aa88
