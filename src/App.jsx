@@ -1,4 +1,5 @@
 import Hero from "./components/Hero";
+import MovieCard from "./components/MovieCard.jsx";
 import Search from "./components/Search.jsx";
 import Spinner from "./components/Spinner.jsx";
 
@@ -67,7 +68,7 @@ function App() {
         <Hero />
         <Search search={searchQuery} setSearch={setSearchQuery} />
         <section className="all-movies">
-          <h2 className="mt-[40px]">All Movies</h2>
+          <h2 className="mt-10">All Movies</h2>
           {isLoading ? (
             <Spinner />
           ) : errorMessage ? (
@@ -75,9 +76,7 @@ function App() {
           ) : (
             <ul>
               {movieList.map((movie) => (
-                <p key={movie.id} className="text-white">
-                  {movie.title}
-                </p>
+                <MovieCard key={movie.id} movie={movie} />
               ))}
             </ul>
           )}
