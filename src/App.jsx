@@ -3,6 +3,7 @@ import MovieCard from "./components/MovieCard.jsx";
 import Search from "./components/Search.jsx";
 import Spinner from "./components/Spinner.jsx";
 import { useDebounce } from "react-use";
+import { updateSearchCount } from "./components/appwrite.js";
 
 import { useEffect, useState } from "react";
 
@@ -54,7 +55,11 @@ function App() {
 
       setMovieList(data.results || []);
 
-      console.log(data);
+      if (debounceSearchQuery.trim() !== "" && data.results.length > 0) {
+        await updateSearchCount(debounceSearchQuery, data.results[0]);
+      }
+
+      // console.log(data);
     } catch (error) {
       console.error(`Error fetching movies: {error}`);
       setErrorMessage("Failed to fetch movies. Please try again later.");
